@@ -1,3 +1,32 @@
+
+
+## Output
+- `kelvin_voigt_results.csv`: Contains time, strain, noisy stress, and estimated stress
+- Console output: Identified parameters
+
+
+
+
+
+# Thermo-Active VSA – Kelvin-Voigt Model Identification
+
+This Python script demonstrates how to simulate and identify the parameters of a viscoelastic actuator using the Kelvin-Voigt model. It:
+- Simulates strain input
+- Computes true stress with known material parameters
+- Adds noise to mimic experimental data
+- Estimates model parameters using nonlinear least squares
+- Visualizes and saves results
+
+## Requirements
+- numpy
+- matplotlib
+- scipy
+
+Install with:
+
+
+
+
 """
 thermo-active-VSA: System Identification Using the Kelvin-Voigt Model
 
